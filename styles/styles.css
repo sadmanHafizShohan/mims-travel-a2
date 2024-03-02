@@ -1,0 +1,100 @@
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+main {
+    margin: 135px 50px;
+}
+
+.btn-primary {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    border: none;
+}
+
+.header {
+    margin: 135px 50px;
+}
+
+.text-gray {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Navbar CSS */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    padding: 10px;
+}
+.desh-travel {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+    text-wrap: nowrap;
+}
+.travel {
+    color: #FF5400;
+}
+
+.left-side-nav{
+    display: flex;
+    gap: 16px;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+.nav-img{
+    text-align: center;
+}
+
+.nav-right ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-right ul li {
+    display: inline-block;
+}
+
+.nav-right ul li a {
+    display: block;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#check {
+    display: none;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    display: none;
+}
+
+.checkbtn i {
+    padding: 5px;
+}
+
+#check:checked~.nav-right {
+    display: block;
+}
