@@ -39,6 +39,7 @@ nav {
     background-color: #FFF;
     padding: 10px;
 }
+
 .desh-travel {
     color: #131318;
     font-family: Mulish;
@@ -46,19 +47,22 @@ nav {
     font-weight: 800;
     text-wrap: nowrap;
 }
+
 .travel {
     color: #FF5400;
 }
 
-.left-side-nav{
+.left-side-nav {
     display: flex;
     gap: 16px;
 }
+
 .nav-right {
     display: flex;
     align-items: center;
 }
-.nav-img{
+
+.nav-img {
     text-align: center;
 }
 
@@ -143,6 +147,7 @@ button {
     font-weight: 400;
     cursor: pointer;
 }
+
 /* popular Tours CSS */
 .section {
     display: flex;
@@ -297,4 +302,18 @@ button {
     width: 393px;
     height: 52px;
     border: 0px;
+}
+
+/* Nature section CSS */
+.nature-container {
+    width: 100%;
+}
+
+.nature {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nature img {
+    width: 220px;
 }
