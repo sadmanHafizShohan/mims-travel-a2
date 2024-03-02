@@ -317,3 +317,42 @@ button {
 .nature img {
     width: 220px;
 }
+
+/* Footer */
+.footer-title {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.footer {
+    padding: 110px 30px;
+    margin-top: 50px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 100%;
+    text-align: center;
+}
+
+.footermain {
+    gap: 20px;
+    color: var(--Dark-01, #131318);
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.footer-description {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+hr {
+    width: 70%;
+}
