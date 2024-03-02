@@ -98,3 +98,48 @@ nav {
 #check:checked~.nav-right {
     display: block;
 }
+
+/* banner CSS */
+
+.explore {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 80px;
+}
+
+.banner {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-btn {
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.banner-btn input,
+select,
+button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 15px;
+    border: 0;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
