@@ -356,3 +356,110 @@ button {
 hr {
     width: 70%;
 }
+
+/* Responsive for mobile */
+
+@media screen and (max-width: 600px) {
+    main {
+        margin: 0;
+        padding: 0;
+    }
+    .nav-right {
+        position: relative;
+        left: 0;
+        width: 100%;
+        background-color: transparent;
+        display: none;
+        padding-top: 20px;
+    }
+
+    .nav-right ul li {
+        display: block;
+        text-align: center;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    #check:checked~.nav-right {
+        display: block;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .section {
+        flex-direction: column;
+    }
+
+    .mountain {
+        width: 335px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .mountain-img {
+        width: 400px;
+    }
+
+    .banner-btn {
+        flex-direction: column;
+    }
+
+    .row1,
+    .row2,
+    .row3 {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px;
+    }
+
+    .why-description {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .map-des,
+    .hotel-des {
+        width: 335px;
+        margin: auto;
+    }
+
+    .price-des {
+        width: 335px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-last {
+        flex-direction: column;
+    }
+
+    .newsletter,
+    .email,
+    .name,
+    .subs {
+        margin: auto;
+        width: 335px;
+    }
+
+    .img8 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img8 img {
+        width: 380px;
+    }
+
+    .nature {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer {
+        width: auto;
+    }
+}
