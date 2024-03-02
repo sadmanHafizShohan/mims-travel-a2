@@ -223,3 +223,40 @@ button {
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
 }
+
+/* Why choose us section CSS */
+
+.why-description {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.hotel-des {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    height: 284px;
+    padding: 30px;
+}
+
+.map-des {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 573px;
+    height: 284px;
+    padding: 30px;
+}
+
+.price-des {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 573px;
+    height: 284px;
+    margin: 0 294px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
